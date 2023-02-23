@@ -19,9 +19,9 @@ function generatePassword() {
     alert("One prompt must be selected")
     return
   }
-  var upperChar = "ABC";
-  var lowerChar = "abc";
-  var numberChar = "123";
+  var upperChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var lowerChar = "abcdefghijklmnopqrstuvwxyx";
+  var numberChar = "123456789";
   var specialChar = "!@#$%";
   var possibleChar = "";
   if (uppercase) {
